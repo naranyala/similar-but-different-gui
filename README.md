@@ -1,7 +1,10 @@
 # Similar But Different GUI
 
-A curated list of Graphical User Interface (GUI) applications and tools that are "similar but different", starting with disk usage analysis and visualization. These tools help you understand where your disk space went, but each approaches the visualization and user experience slightly differently (e.g., Treemaps vs. Sunburst charts, different UI toolkits).
+Welcome to **Similar But Different GUI** — a curated collection of open-source Graphical User Interface (GUI) applications and tools that solve the same fundamental problems, but do so in uniquely different ways.
 
+In the world of Free and Open-Source Software (FOSS), there is rarely just one way to accomplish a task. From disk usage analyzers and media players to code editors and file managers, this list explores how different applications tackle the exact same domain. Some focus on minimalism and speed, others on power-user features and extensibility. Some strictly follow desktop design guidelines (like GNOME HIG or KDE), while others forge their own cross-platform paths using Qt, GTK, Rust, or modern web frameworks. 
+
+Explore these categories to discover tools that are functionally similar, but philosophically, visually, and experientially different.
 ## Disk Usage Analyzers
 Here are several open-source GUI applications that analyze and visualize disk usage:
 
@@ -552,12 +555,12 @@ Behind these varied GUIs lie powerful, shared lower-level libraries that do the 
 
 | Category | Libraries / Packages | Description |
 | :--- | :--- | :--- |
-| **UI Toolkits** | GTK, Qt, Electron, Tauri, Flutter, wxWidgets | The frameworks used to draw the buttons and windows. GTK and Qt dominate native Linux apps, while Electron/Tauri power cross-platform web-based UIs. |
-| **Multimedia Engines** | FFmpeg, GStreamer, MLT Framework, libmpv | The core logic for encoding/decoding/playing media. Countless video players are just wrappers around `libmpv`, and many video editors rely entirely on MLT and FFmpeg. |
-| **Virtualization** | libvirt, QEMU, KVM | The hypervisors and management APIs. Tools like Virt-Manager and GNOME Boxes both speak to `libvirt`, but present drastically different interfaces. |
-| **Document Rendering** | Poppler, WebKit/Blink, Pandoc | `Poppler` is the engine behind almost every open-source PDF viewer (Evince, Okular). `Pandoc` handles document format conversions (used heavily in markdown note apps). |
-| **Graphics & Drawing** | Cairo, Skia, OpenGL, Vulkan | The low-level rendering APIs. Terminals like Alacritty use OpenGL/Vulkan for GPU acceleration, while 2D tools often rely on Cairo or Skia. |
-| **File / I/O** | gio, KIO, FUSE | Virtual file systems and I/O handlers. File managers (Nautilus, Dolphin) use these to treat remote servers (FTP, SFTP) exactly like local directories. |
+| **UI Toolkits** | [GTK](https://github.com/GNOME/gtk), [Qt](https://github.com/qt/qt), [Electron](https://github.com/electron/electron), [Tauri](https://github.com/tauri-apps/tauri), [Flutter](https://github.com/flutter/flutter), [wxWidgets](https://github.com/wxWidgets/wxWidgets) | The frameworks used to draw the buttons and windows. GTK and Qt dominate native Linux apps, while Electron/Tauri power cross-platform web-based UIs. |
+| **Multimedia Engines** | [FFmpeg](https://github.com/FFmpeg/FFmpeg), [GStreamer](https://gitlab.freedesktop.org/gstreamer/gstreamer), [MLT Framework](https://github.com/mltframework/mlt), [libmpv](https://github.com/mpv-player/mpv) | The core logic for encoding/decoding/playing media. Countless video players are just wrappers around `libmpv`, and many video editors rely entirely on MLT and FFmpeg. |
+| **Virtualization** | [libvirt](https://github.com/libvirt/libvirt), [QEMU](https://github.com/qemu/qemu), [KVM](https://github.com/kvm/kvm) | The hypervisors and management APIs. Tools like Virt-Manager and GNOME Boxes both speak to `libvirt`, but present drastically different interfaces. |
+| **Document Rendering** | [Poppler](https://github.com/GNOME/poppler), [WebKit/Blink](https://github.com/WebKit/WebKit), [Pandoc](https://github.com/jgm/pandoc) | `Poppler` is the engine behind almost every open-source PDF viewer (Evince, Okular). `Pandoc` handles document format conversions (used heavily in markdown note apps). |
+| **Graphics & Drawing** | [Cairo](https://github.com/freedesktop/cairo), [Skia](https://github.com/skia/skia), OpenGL, Vulkan | The low-level rendering APIs. Terminals like Alacritty use OpenGL/Vulkan for GPU acceleration, while 2D tools often rely on Cairo or Skia. |
+| **File / I/O** | [gio](https://gitlab.gnome.org/GNOME/glib), [KIO](https://invent.kde.org/frameworks/kio), [FUSE](https://github.com/libfuse/libfuse) | Virtual file systems and I/O handlers. File managers (Nautilus, Dolphin) use these to treat remote servers (FTP, SFTP) exactly like local directories. |
 
 ---
 
