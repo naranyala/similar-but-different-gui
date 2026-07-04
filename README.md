@@ -181,7 +181,6 @@ Note-taking apps differ in storage format (plain text, markdown, proprietary), s
 These tools range from simple capture utilities to full annotation and recording suites, with different approaches to workflows and platform integration.
 | Application | Platform | Description |
 | :--- | :--- | :--- |
-
 | **[Flameshot](https://github.com/flameshot-org/flameshot)** | Cross-platform (Qt) | A powerful screenshot tool with in-app annotation (arrows, text, blurring). Upload to img.sh, configurable shortcuts. The "capture and annotate" workflow. |
 | **[Spectacle](https://invent.kde.org/plasma/spectacle)** | Linux (KDE/Qt) | KDE's screenshot utility. Supports region/window/full-screen capture, annotation, and scheduling. Deeply integrated with KDE's screenshot sharing features. |
 | **[Kooha](https://github.com/SeaDve/Kooha)** | Linux (GNOME/GTK) | A GNOME-native screen recorder with a beautiful, simple UI. One-click recording with format/codec selection. The "record my screen" simplicity vs OBS's complexity. |
