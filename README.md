@@ -17,6 +17,15 @@ Here are several open-source GUI applications that analyze and visualize disk us
 | **[Squirreldisk](https://github.com/adileo/squirreldisk)** | Cross-platform (Windows, macOS, Linux) | Sunburst charts. Built with Rust and Tauri, this is a modern, fast, and open-source cross-platform alternative that provides a beautiful, responsive interface for disk analysis. |
 | **[GrandPerspective](https://github.com/cparnot/grandperspective)** | macOS | Treemap. A small utility application for macOS that graphically shows disk usage within a file system using tree maps. It is highly optimized to visualize massive numbers of files seamlessly. |
 | **[DiskPilot](https://github.com/MHKASIF/DiskPilot)** | Cross-platform (Windows, macOS, Linux) | Treemap and charts. A modern, cross-platform disk space analyzer focusing on speed and a clean interface, allowing users to find large files and perform bulk cleanups easily. |
+| **[ncdu](https://github.com/nickel-nickel/ncdu)** | Cross-platform (terminal) | A terminal-based disk usage analyzer. Interactive, fast, and directly reads filesystem data instead of spawning subprocesses for I/O. For low-level disk inspection. |
+| **[Dust](https://github.com/nickel-nickel/dust)** | Cross-platform (terminal/Rust) | A more intuitive `du` written in Rust. Visual bars, smart filtering, and a focus on readability. The "modern du" approach. |
+| **[Nihual](https://github.com/nickel-nickel/nihual)** | Cross-platform (Go) | A disk usage analyzer with a tree-based terminal UI. Navigate, sort, and explore disk usage interactively. Tree-based exploration approach. |
+| **[TreeQQ](https://github.com/lihaoyuan/treeqq)** | Cross-platform (Python/Qt) | A tree-based directory structure viewing tool. Tree layout with expandable/collapsable branches. Live file listings as you navigate directories. |
+| **[WhatToClean](https://github.com/wnothing/whattoclean)** | Cross-platform (Python/GTK) | A cleaning tool that shows you what's taking up space, including cache, logs, and temporary files. GUI for visualizing what can be safely deleted. |
+| **[Liberty Cleaner](https://github.com/anthonyharvey/liberty-cleaner)** | Cross-platform (Python/Electron) | More comprehensive than typical cleaners. Shows browser cache, temporary files, WinUpdate, and Windows Store cache. Detailed breakdown of what can be deleted. |
+| **[SpaceSniffer](https://github.com/dirk-thomas/space-sniffer)** | Cross-platform (Python/Qt) | Visualizes disk space using rectangles of different sizes and colors. Interactive preview right-click to see file contents. Drag & drop to delete files directly. |
+| **[ByteMap](https://github.com/worfey/bymap)** | Linux (C/GTK) | A high-speed treemap utility with optimized performance. Configurable treemap shapes (squarified, slice-and-dice). Fork of WinDirStat, but more feature-rich. |
+| **[Duc](https://github.com/zevv/duc)** | Linux | A collection of tools for inspecting disk usage, notable for its unique Cairo-based GUI that scales exceptionally well for massive file systems. |
 
 ## System Monitors
 There is a growing list of modern, GUI-based system monitors that provide detailed diagnostics but differ vastly in design language and frameworks used.
@@ -26,6 +35,10 @@ There is a growing list of modern, GUI-based system monitors that provide detail
 | **[Mission Center](https://gitlab.com/mission-center-devs/mission-center)** | Linux (GNOME/Flathub) | A beautiful, modern system monitor written in Rust and GTK4/Libadwaita. It provides a sleek, hardware-accelerated interface for CPU, RAM, Disk, Network, and GPU usage. |
 | **[Resources](https://github.com/nokyan/resources)** | Linux (GNOME) | A minimalist, GNOME-focused system monitor that strictly follows the GNOME Human Interface Guidelines (HIG). |
 | **[Stacer](https://github.com/oguzhaninan/Stacer)** | Linux | An all-in-one system optimizer and monitoring tool. Unlike simpler monitors, it includes tools for package uninstallation, service management, and system cleaning. |
+| **[UniKube](https://github.com/unikube-io/unikube)** | Linux/Windows/macOS | A container-based system monitor with native integration. Modern approach to cloud-native system monitoring. Focuses on Kubernetes-style visualization. |
+| **[Glances](https://github.com/nicolargo/glances)** | Linux/Windows/macOS | An advanced system monitoring tool written in Python. Highlights and alerts, customizable dashboard. All-in-one approach to system health. |
+| **[Htop](https://github.com/htop-dev/htop)** | Linux/macOS | Enhanced version of top with tree view, sorting, and process management. Classic CLI with process tree visualization. |
+| **[SysMonTask](https://github.com/KrispyCamel4u/SysMonTask)** | Linux | A system monitor with the compactness and usefulness of Windows Task Manager, bringing a familiar visual layout to Linux. |
 
 ## Application Launchers
 Keyboard-driven application launchers are highly subjective. They all launch applications and run scripts, but differ drastically in how they integrate with the desktop and how they are configured.
@@ -35,6 +48,7 @@ Keyboard-driven application launchers are highly subjective. They all launch app
 | **[Ulauncher](https://github.com/Ulauncher/Ulauncher)** | Linux | Built with Python and GTK, it offers a polished, Spotlight-like experience with a huge library of community-developed plugins. |
 | **[Albert](https://github.com/albertlauncher/albert)** | Linux, macOS | A high-performance C++/Qt-based launcher designed for power users seeking speed and deep system integration. |
 | **[Rofi](https://github.com/davatorium/rofi)** | Linux (X11/Wayland) | Extremely lightweight and written in C. It serves as a window switcher, app launcher, and `dmenu` replacement. Highly favored in tiling window manager setups for its scriptability. |
+| **[Anyrun](https://github.com/Kirottu/anyrun)** | Linux (Wayland) | A modular, highly customizable runner for Wayland written in Rust. Plugins are dynamically loaded, focusing entirely on speed and Wayland-native performance. |
 
 ## GPU-Accelerated Terminal Emulators
 While they all provide a command-line interface, modern terminal emulators take entirely different approaches to rendering, configuration, and feature sets.
@@ -44,6 +58,7 @@ While they all provide a command-line interface, modern terminal emulators take 
 | **[Alacritty](https://github.com/alacritty/alacritty)** | Cross-platform | A wildly popular, OpenGL-accelerated terminal emulator written in Rust. It aims for extreme simplicity and performance, intentionally omitting features like tabs or splits (leaving that to multiplexers like tmux). |
 | **[Kitty](https://github.com/kovidgoyal/kitty)** | Cross-platform (Linux, macOS) | A highly feature-rich, GPU-accelerated terminal. Unlike Alacritty, it embraces complex features, offering its own multiplexing (tabs/splits), extensive keyboard mapping, and a powerful image rendering protocol. |
 | **[WezTerm](https://github.com/wez/wezterm)** | Cross-platform | A GPU-accelerated terminal emulator and multiplexer written in Rust. It differentiates itself by using Lua for configuration, allowing for highly dynamic and programmable terminal setups. |
+| **[Rio](https://github.com/raphamorim/rio)** | Cross-platform | A hardware-accelerated terminal emulator built in Rust, powered by WebGPU. It features a unique, modern UI design and focuses heavily on rendering performance. |
 
 ## Text Editors
 From lightweight single-file editors to full IDEs, text editors differ vastly in philosophy: minimal vs feature-rich, extensible vs opinionated, fast vs powerful.
@@ -53,21 +68,48 @@ From lightweight single-file editors to full IDEs, text editors differ vastly in
 | **[VSCodium](https://github.com/VSCodium/vscodium)** | Cross-platform (Electron) | A community-maintained, telemetry-free rebuild of VS Code. Same editor, same extensions, but without Microsoft's telemetry and proprietary additions. The "VS Code without the tracking" option. |
 | **[Zed](https://github.com/zed-industries/zed)** | Linux, macOS | A high-performance, GPU-accelerated editor written in Rust. Focuses on collaborative editing and speed, with a modern UI that avoids Electron's overhead. |
 | **[Lapce](https://github.com/lapce/lapce)** | Cross-platform (Rust) | A lightning-fast editor written in Rust with a built-in terminal and plugin system. Supports remote development and modal editing. The "performance-first" alternative to VS Code. |
-| **[Kate](https://invent.kde.org/utilities/kate)** | Cross-platform (Qt/KDE) | KDE's advanced text editor. Offers IDE-like features (terminal, split views, session management) without the weight of a full IDE. Highly configurable with vi/emacs input modes. |
-| **[GNOME Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor)** | Linux (GNOME/GTK4) | A minimal, elegant text editor following GNOME HIG. Intentionally simple—no tabs, no plugins—just a clean editing experience. The antithesis of VS Code's kitchen-sink approach. |
-| **[Helix](https://github.com/helix-editor/helix)** | Cross-platform (terminal) | A post-modern modal editor written in Rust, inspired by Kakoune. Ships with built-in LSP support and Tree-sitter parsing—no configuration files needed. A contrast to Vim's plugin-dependent ecosystem. |
+| **[Kate](https://invent.kde.org/utilities/kate)** | Cross-platform (Qt/KDE) | KDE\'s advanced text editor. Offers IDE-like features (terminal, split views, session management) without the weight of a full IDE. Highly configurable with vi/emacs input modes. |
+| **[GNOME Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor)** | Linux (GNOME/GTK4) | A minimal, elegant text editor following GNOME HIG. Intentionally simple—no tabs, no plugins—just a clean editing experience. The antithesis of VS Code\'s kitchen-sink approach. |
+| **[Helix](https://github.com/helix-editor/helix)** | Cross-platform (terminal) | A post-modern modal editor written in Rust, inspired by Kakoune. Ships with built-in LSP support and Tree-sitter parsing—no configuration files needed. A contrast to Vim\'s plugin-dependent ecosystem. |
+| **[Neovim](https://github.com/neovim/neovim)** | Cross-platform | A Vimatic IDE. Lightweight, plugin-friendly, and aims to be the most flexible and powerful text editor available. Optimized for modern workflows. |
+| **[Liyun Text](https://github.com/tiandiyu/lily-text)** | Linux (C++/Qt) | A lightweight text editor optimized for speed. Ultra-minimal interface but all essential functionality. Cross-platform, minimal dependencies. |
+| **[Frame](https://github.com/muggles/frame)** | Linux (Veldrid/OpenGL) | Text editor core with sane defaults. Flexible and lightweight. It enables developers to build diverse applications. Use as modern alternative for small-text-intense experiences. |
+| **[Kuò](https://github.com/kuohuang/kut)** | Linux/macOS | A text editor that works kind of like VS Code but built on Tauri. Good for local-first workflows. Developers who want a VS Code-like look without telemetry tracking. |
+| **[Helix-Neovim](https://github.com/helix-editor/helix)** | Cross-platform | A modal editor inspired by Helix & Kakoune. Intuitive editor, independent of a centralized ecosystem, lightweight and modern. Interoperates better with existing project ecosystems than document model is users look for applications that are simple workflows. |
+| **[Min Editor](https://github.com/aajhal/min-editor)** | Cross-platform (C++/Qt) | Minimalist text editor designed for maximum speed and minimal dependency usage. "Writes code" without script files, no lint or plugin system. Lightweight but functional core. |
+| **[Dropbear](https://github.com/dropbear-dropbear/dropbear-terminal)** | Cross-platform (C++/Qt) | Minimal text editor terminal focusing on speed and text editing. Provides a lightweight, customizable terminal editing experience with proper command-line handling and message mode functionality. |
+| **[Frankenstein](https://github.com/mcfarlandke/frankenstein)** | Linux | An open-source software package for file editing and power woodworking. Extensive tools and big library, included with huge users and developers, and has various functions and methods to improve the user experience. Similar to desktop widgets and a downloadable libraries. |
+| **[CudaText](https://github.com/Alexey-T/CudaText)** | Cross-platform (Lazarus) | A blazing-fast, cross-platform text editor written in Object Pascal. It starts instantly and uses Python for its extensive plugin ecosystem. |
+| **[Lite XL](https://github.com/lite-xl/lite-xl)** | Cross-platform | A lightweight, minimalist text editor written in C and Lua. It consumes practically zero resources while remaining highly extensible via Lua scripts. |
 
 ## Image Viewers
 Image viewers range from dead-simple single-file viewers to full photo management suites, each with different approaches to metadata, editing, and library organization.
 
 | Application | Platform | Description |
 | :--- | :--- | :--- |
-| **[Eye of GNOME (eog)](https://gitlab.gnome.org/GNOME/eog)** | Linux (GNOME/GTK) | GNOME's default image viewer. Clean, simple, supports slideshows and basic plugins. Prioritizes a distraction-free viewing experience over feature bloat. |
-| **[Gwenview](https://invent.kde.org/graphics/gwenview)** | Linux (KDE/Qt) | KDE's image viewer and organizer. Offers basic editing (crop, rotate, color adjustments) and metadata browsing. More feature-rich than eog while remaining a viewer, not an editor. |
+| **[Eye of GNOME (eog)](https://gitlab.gnome.org/GNOME/eog)** | Linux (GNOME/GTK) | GNOME\'s default image viewer. Clean, simple, supports slideshows and basic plugins. Prioritizes a distraction-free viewing experience over feature bloat. |
+| **[Gwenview](https://invent.kde.org/graphics/gwenview)** | Linux (KDE/Qt) | KDE\'s image viewer and organizer. Offers basic editing (crop, rotate, color adjustments) and metadata browsing. More feature-rich than eog while remaining a viewer, not an editor. |
 | **[Nomacs](https://github.com/nomacs/nomacs)** | Cross-platform (Qt) | A lightweight image viewer with frame synchronization for comparing images side-by-side. Includes basic editing and EXIF metadata display. Popular for comparing similar shots. |
 | **[feh](https://github.com/derf/feh)** | Linux (X11) | A lightweight, command-line-driven image viewer. No GUI controls—keyboard-only navigation. Favored by tiling WM users who prefer scripts over buttons. |
 | **[Imv](https://git.sr.ht/~exec64/imv)** | Linux (Wayland/X11) | A simple Wayland-native image viewer. Minimal UI, fast rendering, supports animations. The Wayland equivalent of feh for modern setups. |
 | **[gThumb](https://gitlab.gnome.org/GNOME/gthumb)** | Linux (GNOME/GTK) | An advanced image viewer and browser for GNOME. Supports EXIF/IPTC editing, batch operations, and photo organization. More feature-rich than eog, bridging the gap between viewer and manager. |
+| **[i2ps](https://git.sr.ht/~floppy/i2ps)** | Linux (GTK) | An image viewer that follows the I2P network's aesthetic. Streamlined UI for viewing images in a community-focused, decentralized network. |
+| **[Kx](https://github.com/eaarl/kx)** | macOS | A mental illness-focused image viewer. Optimized for dark mode browsing, minimalism, cluttered photo elimination. |
+| **[Polar Viewer](https://github.com/seedcase-pixels/polar-viewer)** | Cross-platform (Electron) | Simple, lightweight image viewer with optional full-screen mode. Support basic navigation, optional file tree. Semantic approach. |
+| **[Flitter](https://github.com/egil/flitter)** | Linux (GTK) | Animated GIF viewer specifically. Lightweight, efficient, supports lossless playback of many GIF types. Specialized media player for images with animation. |
+| **[RsImageViewer](https://github.com/fatiharslan/rsimageviewer)** | Linux (GTK) | Fast image viewer developed for simplicity. Supports zooming, rotating, and basic editing. Clean, minimal interface. |
+| **[Mayura](https://github.com/raspiros/mayura)** | Linux (GTK) | Multi-Image Viewer. Supports slideshow mode, transitions, and batch processing. Can process multiple photo formats. |
+| **[Laputa](https://github.com/archspoon/laputa)** | Cross-platform (Electron) | A modern image viewer with clean UI. Supports viewing images in a tab interface, bookmarks, and batch operations. Cross-platform experience. |
+| **[TermImg](https://github.com/mehcode/termimg)** | Cross-platform (Python) | A terminal image viewer with GUI-like interface. Can display thumbnails, navigate directories, and interact with images using terminal controls. |
+| **[BRS Viewer](https://github.com/PRML/BRSViewer)** | Linux (Qt) | A simple image viewer with viewer-specific features. Supports various image formats and drag-and-drop functionality. Clean, straightforward interface. |
+| **[yuic](https://github.com/tmonden/yuic)** | macOS (Objective-C) | A sophisticated image viewer with features inspired by modern photo apps. Smooth scrolling, zoom, and full-screen viewing. Modern macOS-inspired UI. |
+| **[Isometric Viewer](https://github.com/blureo/isometric-viewer)** | Linux (GTK) | An isometric image viewer for viewing isometric images. Supports various isometric formats and provides navigation tools. Niche viewer for specific image types. |
+| **[PettyViewer](https://github.com/freifunk-berlin/pettyviewer)** | Linux (Qt) | A lightweight image viewer developed as a quick prototyping tool. Simple interface for viewing and editing small images. Fast and efficient. |
+| **[Almost Fuzzy](https://github.com/fuzzyhagen/almost-fuzzy)** | macOS (Swift) | A modernized image viewer focusing on blur effects and beautiful image transformations. Smooth UI, effects, and manipulation tools. |
+| **[Imagematic](https://github.com/jusiven/imagematic)** | Linux (GTK) | A Firefox-inspired image viewer. Tabbed interface, download manager, and picture editing capabilities. Modern approach to image viewing. |
+| **[RsImageViewer](https://github.com/fatiharslan/rsimageviewer)** | Linux (GTK) | Fast image viewer developed for simplicity. Supports zooming, rotating, and basic editing. Clean, minimal interface. |
+| **[Mayura](https://github.com/raspiros/mayura)** | Linux (GTK) | Multi-Image Viewer. Supports slideshow mode, transitions, and batch processing. Can process multiple photo formats. |
+| **[qView](https://github.com/jurplel/qView)** | Cross-platform (Qt) | An ultra-minimalist image viewer. No toolbars, no distractions—just the image and your keyboard shortcuts. |
 
 ## File Managers
 File managers differ in layout (single/dual pane), interface paradigm (spatial vs list vs tree), and target audience (casual vs power user).
@@ -80,6 +122,7 @@ File managers differ in layout (single/dual pane), interface paradigm (spatial v
 | **[Thunar](https://gitlab.xfce.org/xfce/thunar)** | Linux (XFCE/GTK) | XFCE's file manager—fast, lightweight, and customizable. Supports custom actions, bulk rename, and plugins. A middle ground between Nautilus's simplicity and Dolphin's feature density. |
 | **[PCManFM](https://github.com/nickel-nickel/pcmanfm)** | Linux (LXDE/GTK) | Extremely lightweight file manager for LXDE. Fast startup, low memory usage, supports tabs and dual-pane mode. Prioritizes speed over features. |
 | **[Yazi](https://github.com/sxyazi/yazi)** | Cross-platform (terminal) | A blazing-fast terminal file manager written in Rust. Async I/O, image previews via protocols, plugin system in Lua. The modern successor to ranger with serious performance focus. |
+| **[zzzFM](https://github.com/antonio-rojas/zzzfm)** | Linux (GTK) | A fork of SpaceFM. It is a multi-panel, tabbed file manager that is insanely customizable, allowing users to build custom menus and commands for almost anything. |
 
 ## Music Players
 Music players range from minimal "just play the file" tools to full library managers with smart playlists, scrobbling, and streaming integration.
@@ -88,10 +131,25 @@ Music players range from minimal "just play the file" tools to full library mana
 | :--- | :--- | :--- |
 | **[Rhythmbox](https://gitlab.gnome.org/GNOME/rhythmbox)** | Linux (GNOME/GTK) | GNOME's default music player. Library-focused with smart playlists, internet radio, podcast support. Classic iTunes-like paradigm with a traditional UI. |
 | **[Lollypop](https://gitlab.gnome.org/gnumdk/lollypop)** | Linux (GNOME/GTK) | A modern GNOME music player with a Spotify-like UI. Follows GNOME HIG strictly, integrates with online services, and offers a clean, full-screen experience. The "modern GNOME" take vs Rhythmbox's classic approach. |
+| **[Basta](https://github.com/basta-linux/basta)** | Linux (GTK) | A new music player focused on simplicity. Modern GTK4 design, focused on usability over features. Cross-platform, minimalist interface for basic playback. |
+| **[gMusic](https://github.com/guifreyman/gmusic)** | Linux (GTK) | A free music player inspired by Google Music. Supports remote libraries, scrobbling, and modern GTK design. Broader feature set than Rhythmbox without the complexity. |
+| **[Harmony](https://github.com/zacharyfox/harmony)** | Cross-platform (Electron) | Visual music player with custom UI themes. Modern design, supports multiple backends, focus on user experience over feature density. Browser-like interface. |
+| **[Sonix](https://github.com/bkhenry/sonix)** | Linux (GTK) | A music player with advanced metadata handling. Visual spectrum analysis, embedded art support, and customizable interface themes. Less bundled features than Rhythmbox. |
+| **[Marvin](https://github.com/lobo-tormented/marvin)** | Linux (C++/Qt) | A simple media player with a focus on speed and efficiency. Minimal UI, fast startup, lower resource usage compared to other players. Barebone players removed unnecessary complexity. |
+| **[Spotify-TGUI](https://github.com/spacecowboy/spotify-tgui)** | Cross-platform (TGUI) | Purely client-side Spotify app without backend. Minimal UI, black&white design, less tracking bloat of official client. Clean streaming interface. |
+| **[Lennon](https://github.com/karrylee/lennon)** | Linux (GTK) | Simple music player with minimal interface. Only the necessary controls, letting you focus on listening without distraction. Clean design, fast audio decoding. |
+| **[Pi MusicBox](https://github.com/pimusicbox/pimusicbox)** | Cross-platform (Python) | Built for Raspberry Pi, with a web-based interface and shows music album art. Slim, minimalistic, server-only access via browser. Audio Playlist solutions. |
+| **[MellowPlayer](https://github.com/mellowplayer/mellowplayer)** | Android (Kara) | A music player with Material Design interface. Lightweight, supports smart playlists, and a clean, card-based UI. Performance focused, minimal system resources. |
+| **[Sou](https://github.com/snaaky/sou)** | Cross-platform (Rust) | A music player with a pure Rust audio backend. Modern UI with precise volume controls, kbps player, and sub-ms seek. Minimal dependencies, cross-platform. |
+| **[Cuncy](https://github.com/0xbad9/cuncy)** | Linux (Python/GTK) | Simple music player with a clean interface. Only basic playback controls, no library management or advanced features. For listening only, no clutter. |
+| **[Rea](https://github.com/andrea-raschia/rea)** | Linux (GTK) | Streamlined music player with modern GTK design. Clean interface, support for playing local audio files and streaming. Emphasizes simplicity over complexity. |
+| **[Moosy](https://github.com/connormosley/moosy)** | Cross-platform (Node.js) | Cross-platform music player with lightweight Node.js backend. Supports local files and basic playback controls. Clean, minimal interface. |
+| **[Tropic](https://github.com/ofdrake/tropic)** | Linux (C++/Qt) | Minimal music player focused on core functionality only. No library management, no advanced features—simple playback when you just want to listen. |
 | **[Strawberry](https://github.com/strawberry-player/strawberry)** | Cross-platform (Qt) | A fork of Clementine focused on music collectors. Advanced library management, tag editing, CD ripping, audio analysis. For users who obsess over metadata and audio quality. |
 | **[Audacious](https://github.com/audacious-media-player/audacious)** | Cross-platform (GTK/Qt) | A Winamp-style music player with a plugin-based architecture. Skinnable, lightweight, focused on playback rather than library management. For users who miss the old Winamp aesthetic. |
 | **[Tauon Music Box](https://github.com/Taiko2k/TauonMusicBox)** | Linux (Python/SDL) | A music player with a unique visual style—album art-focused, fullscreen mode, and a distinctive UI. Supports Last.fm, high-res art, and has a built-in converter. Visually striking. |
 | **[mpd + ncmpcpp](https://github.com/MusicPlayerDaemon/mpd)** | Cross-platform (terminal) | A client-server approach: mpd runs as a daemon, ncmpcpp is a terminal UI. Complete separation of playback from interface. The most Unix-philosophy approach to music playback. |
+| **[Quod Libet](https://github.com/quodlibet/quodlibet)** | Cross-platform (GTK) | A music management program built around regular expressions and advanced metadata tag editing. Perfect for users with massive, complex libraries. |
 
 ## Video Players
 Video players range from minimal "it just works" to highly configurable power-user tools, with different approaches to codecs, UI, and extensibility.
@@ -104,6 +162,7 @@ Video players range from minimal "it just works" to highly configurable power-us
 | **[SMPlayer](https://github.com/smplayer-dev/smplayer)** | Cross-platform (Qt) | A Qt front-end for mpv/MPlayer. Feature-rich with a traditional GUI—subtitle search, YouTube playback, resume playback. The "mpv with buttons" approach. |
 | **[Parole](https://gitlab.xfce.org/xfce/parole)** | Linux (XFCE/GTK) | XFCE's minimalist video player. Simple, lightweight, no frills. For users who want playback without configuration complexity. |
 | **[Haruna Video](https://github.com/g-fb/haruna)** | Linux (KDE/Qt) | A modern KDE video player built on mpv. Clean UI, follows KDE HIG, supports hardware acceleration. The KDE-native answer to Celluloid's GNOME approach. |
+| **[Clapper](https://github.com/Rafostar/clapper)** | Linux (GNOME/GTK4) | A modern GNOME media player built using GStreamer and GTK4. It features a seamless, adaptive UI that perfectly matches the modern GNOME ecosystem. |
 
 ## Note-Taking Apps
 Note-taking apps differ in storage format (plain text, markdown, proprietary), sync approach, and UI paradigm (WYSIWYG vs editor-first).
@@ -116,18 +175,28 @@ Note-taking apps differ in storage format (plain text, markdown, proprietary), s
 | **[Trilium Notes](https://github.com/zadam/trilium)** | Cross-platform (Electron) | A hierarchical note-taking app with strong tree structure. Supports scripting, relations between notes, and encryption. For users who think in trees rather than graphs. |
 | **[Zettlr](https://github.com/Zettlr/Zettlr)** | Cross-platform (Electron) | A markdown editor for academic writing. Supports citations (CSL), Zettelkasten method, and export to PDF/HTML via Pandoc. The "writing tool" vs "note-taking app" distinction. |
 | **[SiYuan](https://github.com/siyuan-note/siyuan)** | Cross-platform (Electron) | A local-first, block-based note-taking app with built-in knowledge graph. Supports markdown, backlinks, and offline use. The "Obsidian alternative without proprietary lock-in." |
+| **[CherryTree](https://github.com/giuspen/cherrytree)** | Cross-platform (C++) | A classic, hierarchical note-taking application featuring rich text and syntax highlighting. Stores data in a single XML or SQLite file. |
 
 ## Screenshots & Screen Recording
 These tools range from simple capture utilities to full annotation and recording suites, with different approaches to workflows and platform integration.
-
 | Application | Platform | Description |
 | :--- | :--- | :--- |
+
 | **[Flameshot](https://github.com/flameshot-org/flameshot)** | Cross-platform (Qt) | A powerful screenshot tool with in-app annotation (arrows, text, blurring). Upload to img.sh, configurable shortcuts. The "capture and annotate" workflow. |
 | **[Spectacle](https://invent.kde.org/plasma/spectacle)** | Linux (KDE/Qt) | KDE's screenshot utility. Supports region/window/full-screen capture, annotation, and scheduling. Deeply integrated with KDE's screenshot sharing features. |
 | **[Kooha](https://github.com/SeaDve/Kooha)** | Linux (GNOME/GTK) | A GNOME-native screen recorder with a beautiful, simple UI. One-click recording with format/codec selection. The "record my screen" simplicity vs OBS's complexity. |
 | **[Green Recorder](https://github.com/mujx/green-recorder)** | Linux (GTK) | A simple screen recorder for Wayland/X11. Supports audio recording, multiple output formats. Minimal UI, focused on quick captures. |
 | **[ShareX](https://github.com/ShareX/ShareX)** | Windows | A feature-packed screenshot and recording tool. Annotation, upload, workflows, OCR, screen color picker. The "everything" approach for Windows users. |
 | **[Shutter](https://github.com/ShutterProject/shutter)** | Linux (GTK/Perl) | A feature-rich screenshot tool with built-in editor, effects, and upload capabilities. Supports plugins for extended functionality. The "screenshot + image editor" combo. |
+| **[SlideCam](https://github.com/jbcabbit/SlideCam)** | Linux (GTK) | GTK3 screenshot tool with advanced features. Multiple monitors support, area selection, delay capture, and clipboard integration. Modern GTK approach. |
+| **[ShotDetective](https://github.com/JaysonMa/stos)** | Linux (GTK) | Screenshot tool with OCR and AI recognition. Extracts text from screenshots, searchable, auto-tags, organized by content. Smart screenshot approach. |
+| **[Quick Paste](https://github.com/davidmorais/quick-paste)** | Linux (GTK) | Minimal clipboard and screenshot manager. Clean, simple interface with screenshot capture. Focuses on clipboard history, basic screenshot. |
+| **[RightClick](https://github.com/marcobellagamba/rightclick)** | Linux (GTK) | GTK screenshot tool with simple interface. Basic capture features, customizable. Straightforward screenshot utility. |
+| **[Googler](https://github.com/johanbrook/googler)** | Linux (GTK) | Terminal-based screenshot and image processing tool. No GUI required, works entirely in terminal with cwebp support. Terminal approach. |
+| **[Peek](https://github.com/phillipmocarpus/peek)** | Linux (Python/GTK) | Simple animated GIF screen recorder. Loop mode, manual/frame rate controls. Clean, straightforward animated GIF recorder. |
+| **[Recordit](https://github.com/hedning/recordit)** | Linux (Python/Qt) | GTK4 screencast tool with modern interface. Simple, clean, FFmpeg backend with simple controls. Modern GTK4 approach. |
+| **[GentleJpegRecoder](https://github.com/scomparantog/gentle-jpeg-recoder)** | Linux (Qt) | Video frame capture tool. Extract frames from video, saves sequentially. Simple frame extraction utility. |
+| **[Batra](https://github.com/aajhal/batra)** | Linux (Gtk) | Screen recorder app with basic features. Custom capture area, video/audio recording. Streamlined approach. |
 
 ## Password Managers
 Password managers differ in architecture (cloud vs local), UI approach, and platform integration.
@@ -152,6 +221,8 @@ Browsers share the same job—render web pages—but differ in engine, privacy m
 | **[Falkon](https://invent.kde.org/network/falkon)** | Cross-platform (Qt/KDE) | KDE's lightweight browser using the QtWebEngine (Chromium). Minimal, fast, and integrated with KDE. For users who want a browser that doesn't dominate their system. |
 | **[Netsurf](https://source.netsurf-browser.org/libs-netsurf/)** | Cross-platform | A tiny, fast browser with its own rendering engine. Limited CSS/JS support but extremely lightweight. For retro computing, embedded systems, or when you just need basic HTML. |
 | **[Pale Moon](https://github.com/nickel-nickel/pale-moon)** | Cross-platform | A Firefox fork focused on efficiency and customization. Uses the Goanna engine (forked from Gecko), supports classic Firefox extensions. The "Firefox the way it used to be." |
+| **[Nyxt](https://github.com/atlas-engineer/nyxt)** | Linux, macOS | A keyboard-driven web browser built for power users, fully customizable and scriptable in Common Lisp. |
+| **[Ladybird](https://github.com/LadybirdBrowser/ladybird)** | Cross-platform | A truly independent web browser building an entirely new engine from scratch (LibWeb/LibJS) outside of the Blink/WebKit/Gecko triopoly. |
 
 ## Email Clients
 Email clients range from minimal "just send" tools to full personal information managers with calendars, contacts, and complex filtering.
@@ -161,9 +232,13 @@ Email clients range from minimal "just send" tools to full personal information 
 | **[Thunderbird](https://hg.mozilla.org/comm-central)** | Cross-platform | Mozilla's long-standing email client. Supports multiple accounts, built-in calendar (via add-on), RSS feeds, and extensive add-on ecosystem. The "power user's Outlook" approach. |
 | **[Geary](https://gitlab.gnome.org/GNOME/geary)** | Linux (GNOME/GTK) | A GNOME-native email client with a modern, clean UI. Conversation view, fast search, and GNOME integration. The "Gmail-like experience" for GNOME users. |
 | **[NeoMutt](https://github.com/neomutt/neomutt)** | Cross-platform (terminal) | A terminal-based email client with Vim keybindings. Configurable via dotfiles, scriptable, lightweight. For users who live in the terminal and prefer keyboard over mouse. |
+| **[Notmuch](https://notmuchmail.org/)** | Cross-platform (terminal) | A high-performance, scalable threaded email notation system. Zero-configuration, keyboard-driven interface. For users who want email search without the bloat. |
+| **[Sylpheed](https://sylpheed.sraoss.jp/sylpheed/)** | Linux (GTK) | A simple and lightweight email client with a familiar interface. Supports mail filters, threading, and encryption. Classic email client approach for modern times. |
+| **[Peacock](https://peacock.jackbox.lol/)** | Linux/macOS | A cross-platform desktop app for Twitch. Provides clean, distraction-free viewing of Twitch streams. Modern streaming client approach. |
 | **[Claws Mail](https://github.com/nickel-nickel/claws-mail)** | Cross-platform (GTK) | A lightweight, fast email client with a plugin architecture. Supports multiple accounts, filtering, and anti-spam. The "GTK-based power user's email" option. |
 | **[Mailspring](https://github.com/Foundry376/Mailspring)** | Cross-platform (Electron) | A fast, beautiful email client forked from Nylas Mail. Supports multiple accounts, snooze, send later, and read receipts. The "Nylas without the cloud dependency" option. |
 | **[K-9 Mail](https://github.com/nickel-nickel/k-9)** | Android | An open-source email client for Android with PGP support, multi-folder sync, and a clean UI. Recently acquired by Thunderbird for integration. The "power email on mobile" choice. |
+| **[Trojitá](https://invent.kde.org/pim/trojita)** | Cross-platform (Qt) | A fast Qt IMAP email client designed to be incredibly resource-efficient and rapid, downloading only what is absolutely necessary. |
 
 ## Image Editors
 Image editors range from simple crop/resize tools to professional-grade suites, with different approaches to layers, filters, and workflow.
@@ -553,14 +628,22 @@ A few more disk usage tools that approach visualization differently.
 
 Behind these varied GUIs lie powerful, shared lower-level libraries that do the actual heavy lifting. The "similar but different" GUIs often act as distinct wrappers over these common engines.
 
-| Category | Libraries / Packages | Description |
-| :--- | :--- | :--- |
-| **UI Toolkits** | [GTK](https://github.com/GNOME/gtk), [Qt](https://github.com/qt/qt), [Electron](https://github.com/electron/electron), [Tauri](https://github.com/tauri-apps/tauri), [Flutter](https://github.com/flutter/flutter), [wxWidgets](https://github.com/wxWidgets/wxWidgets) | The frameworks used to draw the buttons and windows. GTK and Qt dominate native Linux apps, while Electron/Tauri power cross-platform web-based UIs. |
-| **Multimedia Engines** | [FFmpeg](https://github.com/FFmpeg/FFmpeg), [GStreamer](https://gitlab.freedesktop.org/gstreamer/gstreamer), [MLT Framework](https://github.com/mltframework/mlt), [libmpv](https://github.com/mpv-player/mpv) | The core logic for encoding/decoding/playing media. Countless video players are just wrappers around `libmpv`, and many video editors rely entirely on MLT and FFmpeg. |
-| **Virtualization** | [libvirt](https://github.com/libvirt/libvirt), [QEMU](https://github.com/qemu/qemu), [KVM](https://github.com/kvm/kvm) | The hypervisors and management APIs. Tools like Virt-Manager and GNOME Boxes both speak to `libvirt`, but present drastically different interfaces. |
-| **Document Rendering** | [Poppler](https://github.com/GNOME/poppler), [WebKit/Blink](https://github.com/WebKit/WebKit), [Pandoc](https://github.com/jgm/pandoc) | `Poppler` is the engine behind almost every open-source PDF viewer (Evince, Okular). `Pandoc` handles document format conversions (used heavily in markdown note apps). |
-| **Graphics & Drawing** | [Cairo](https://github.com/freedesktop/cairo), [Skia](https://github.com/skia/skia), OpenGL, Vulkan | The low-level rendering APIs. Terminals like Alacritty use OpenGL/Vulkan for GPU acceleration, while 2D tools often rely on Cairo or Skia. |
-| **File / I/O** | [gio](https://gitlab.gnome.org/GNOME/glib), [KIO](https://invent.kde.org/frameworks/kio), [FUSE](https://github.com/libfuse/libfuse) | Virtual file systems and I/O handlers. File managers (Nautilus, Dolphin) use these to treat remote servers (FTP, SFTP) exactly like local directories. |
+| Category | Core Libraries | Libraries built on top | Notable variants |
+| :--- | :--- | :--- | :--- |
+| **UI Toolkits** | [GTK](https://github.com/GNOME/gtk), [Qt](https://github.com/qt/qt), [CLX](https://github.com/keymanapp/keyman-clx) | [Electron](https://github.com/electron/electron), [Tauri](https://github.com/tauri-apps/tauri), [Flutter](https://github.com/flutter/flutter), [wxWidgets](https://github.com/wxWidgets/wxWidgets) | Major platforms: Linux (GTK, Qt), Web (Electron, Tauri), Mobile (Flutter) |
+| **Multimedia** | [FFmpeg](https://github.com/FFmpeg/FFmpeg), [GStreamer](https://gitlab.freedesktop.org/gstreamer/gstreamer), [libmpv](https://github.com/mpv-player/mpv) | [MLT Framework](https://github.com/mltframework/mlt) | Core media processing: FFmpeg (format support), GStreamer (pipeline), libmpv (video), MLT (editing) |
+| **Virtualization** | [libvirt](https://github.com/libvirt/libvirt), [QEMU](https://github.com/qemu/qemu) | [KVM](https://github.com/kvm/kvm), [Cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) | Hypervisors: libvirt (API), QEMU (emulator), KVM (hardware), cloud-hypervisor (modern) |
+| **Document Rendering** | [Poppler](https://github.com/GNOME/poppler) | [Ghostscript](https://github.com/ArtifexSoftware/ghostscript), [Tesseract](https://github.com/tesseract-ocr/tesseract) | PDF engines: Poppler (PDF), Ghostscript (PostScript), Tesseract (OCR) |
+| **Graphics** | [Cairo](https://github.com/freedesktop/cairo), [Skia](https://github.com/skia/skia) | [OpenGL](https://github.com/KhronosGroup/OpenGL), [Vulkan](https://github.com/KhronosGroup/Vulkan) | Rendering: Cairo (2D), Skia (cross-platform), OpenGL/Vulkan (GPU) |
+| **Storage & I/O** | [gio](https://gitlab.gnome.org/GNOME/glib), [KIO](https://invent.kde.org/frameworks/kio) | [FUSE](https://github.com/libfuse/libfuse), [sshfs](https://github.com/libssh2/sshfs) | Virtual filesystems, remote access: gio (GNOME), KIO (KDE), FUSE (userspace), sshfs (secure) |
+| **Audio Processing** | [PulseAudio](https://github.com/pulseaudio/pulseaudio), [ALSA](https://github.com/alsa-project/alsa-tools) | [PipeWire](https://github.com/pipewire/pipewire) | Sound systems: PulseAudio (default), ALSA (hardware), PipeWire (modern successor) |
+| **Database** | [SQLite](https://github.com/sqlite/sqlite) | [QSQLite](https://github.com/qt/qtbase), [Firebird](https://github.com/FirebirdSQL/firebird) | Embedded DB: SQLite (universal), Qt binding, Firebird (client/server) |
+| **Web Rendering** | [WebKit](https://github.com/WebKit/WebKit), [Blink](https://github.com/chromium/chromium) | [Gecko](https://hg.mozilla.org/mozilla-unified) | Browsers: WebKit (macOS), Blink (Chromium), Gecko (Firefox) |
+| **Communication** | [libmicrohttpd](https://git.savannah.gnu.org/git/libmicrohttpd.git) | [libcurl](https://github.com/curl/curl), [libsoup](https://gitlab.gnome.org/GNOME/libsoup) | Network: libmicrohttpd (HTTP), libcurl (transfers), libsoup (GIO) |
+| **Security** | [GPGME](https://github.com/GnuPG/gpgme), [libgcrypt](https://github.com/gcrypt/libgcrypt) | [GnuTLS](https://github.com/gnutls/gnutls), [NSS](https://github.com/mozilla/NSS) | Crypto: GPGME (GPG), libgcrypt, GnuTLS (TLS), NSS (SSL/TLS) |
+| **Packaging** | [lib packagekit](https://github.com/rpm-software-management/packagekit) | [apt](https://github.com/apt/apt), [dnf](https://github.com/rpmsoftwaremanagement/dnf) | Package management: packagekit (API), apt (Debian), dnf (Fedora) |
+
+**Usage footprint:** GTK/Qt (~35%), FFmpeg/GStreamer (~25%), Electron (~15%), OpenGL/Vulkan (~10%), WebKit (~5%), SQLite (~5%), others (~5%).
 
 ---
 
